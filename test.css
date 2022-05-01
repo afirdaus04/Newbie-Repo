@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', Times, sans-serif;
 }
 
 .background 
@@ -10,8 +10,10 @@
     height: 100vh;
     background-image: url(images/kakashi.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: justify;
 }
+
+/*Navigation and Header Start*/
 
 nav {
     display: flex;
@@ -42,5 +44,90 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
 
 }
+
+
+nav ul li a:hover {
+    color: cyan;
+    transition: 0.4s;
+
+}
+
+.btn {
+    text-decoration: none;
+    text-align: left;
+    color: black ;
+    background-color:  aquamarine;
+    padding: 10px 10px 10px 10px;
+    border: solid black;
+    border-radius: 47%;
+    outline: none;
+}
+
+.btn:hover  {
+    background-color: rgb(40, 216, 157);
+    transition: .4s;
+    transform: scale(1.2) ;
+}
+/*Navigation and Header Finish*/
+
+/* Content Start*/
+.content {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateY(-60%);
+}
+
+h4 {
+    color: Black;
+    margin: 20px 0px 20px;
+    font-size: 30px;
+}
+
+h1 {
+    color: blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+}
+
+h3 {
+    color: Black;
+    margin: 20px 0px 20px;
+    font-size: 20px;
+}
+
+.newsletter form{
+    width: 480;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 1px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+    
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: aquamarine;
+    top: 4px;
+    right: -10px;
+
+}
+
+
+
+
