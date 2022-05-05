@@ -128,19 +128,35 @@ h3 {
 
 }
 
+
+/* About Content*/
 .about {
-    position:fixed;
-    bottom: 0;
+
     width: 100%;
-    padding: 100px 0px;
-    background: #191919;;
+    padding: 50px 0px;
+    background: gray;
+    z-index: ;
 }
 
 .about img{
-    position:fixed;
-    bottom: 0;
-    height: 300px;
+
+    height: 100%;
     width: 100%;
+}
+
+.about-me {
+    width: 550px;
+    color:white;
+
+}
+
+.main {
+    width: 1130px;
+    margin: 0 auto;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
 }
 
 
