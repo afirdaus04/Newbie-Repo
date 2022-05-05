@@ -32,7 +32,7 @@ nav {
 }
 
 span {
-    color:blue;
+    color:red;
 }
 
 nav ul li {
@@ -88,7 +88,7 @@ h4 {
 }
 
 h1 {
-    color: blueviolet;
+    color: blue;
     margin: 20px 0px 20px;
     font-size: 55px;
 }
@@ -100,7 +100,7 @@ h3 {
 }
 
 .newsletter form{
-    width: 480;
+    width: 480px;
     max-width: 100%;
     position: relative;
 }
@@ -119,13 +119,28 @@ h3 {
     position: absolute;
     display: inline-block;
     outline: black;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 30px;
     border-color: black;
     background-color: aquamarine;
     top: 4px;
-    right: -10px;
+    right: -15px;
 
+}
+
+.about {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 100px 0px;
+    background: #191919;;
+}
+
+.about img{
+    position:fixed;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
 }
 
 
